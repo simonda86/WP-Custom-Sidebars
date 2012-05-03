@@ -49,8 +49,8 @@ class Custom_Sidebars
 				register_sidebar( array(
 					'name' => $sidebar,  
 					'id' => $this->generateSlug($sidebar, 45),  
-					'before_widget' => '<aside id="%1$s" class="widget %2$s">',  
-					'after_widget' => "</aside>",  
+					'before_widget' => '<li id="%1$s" class="widget %2$s">',  
+					'after_widget' => "</li>",  
 					'before_title' => '<h3 class="widget-title">',  
 					'after_title' => '</h3>'
 				));
